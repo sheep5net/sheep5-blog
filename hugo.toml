@@ -7,6 +7,9 @@ paginate = 10
 enableRobotsTXT = true
 enableEmoji = true
 
+# CJK 语言支持（修复中文字数统计和阅读时间）
+hasCJKLanguage = true
+
 # 主内容栏目（影响 RSS、归档、首页列表）
 mainSections = ["posts"]
 
