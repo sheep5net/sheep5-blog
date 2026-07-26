@@ -1,11 +1,18 @@
-baseURL = "https://example.com/"
+baseURL = "https://sheep5.net/"
 defaultContentLanguage = "zh-cn"
-title = "我的博客"
+title = "Sheep5的博客"
 theme = "PaperMod"
 paginate = 10
 
 enableRobotsTXT = true
 enableEmoji = true
+
+# 主内容栏目（影响 RSS、归档、首页列表）
+mainSections = ["posts"]
+
+# 固定链接：/posts/随机数字/
+[permalinks]
+  posts = "/posts/:slug/"
 
 # Hugo 构建配置
 [markup]
@@ -35,15 +42,29 @@ enableEmoji = true
   hideMeta = false
   hideSummary = false
 
-  # 首页简介
-  [params.homeInfoParams]
-    Title = "你好 👋"
-    Content = "欢迎来到我的博客"
+  # 日期格式（中文）
+  DateFormat = "2006年01月02日"
 
-  # 社交链接（按需修改）
+  # SEO 网站描述
+  description = "欢迎来到 Sheep5 博客。这是一个记录生活碎碎念、阅读书评与深度思考的地方。我在这里写下关于世界、自我与创造的文字，希望能在这个喧嚣的时代，为你提供一处安静的思考角落。"
+
+  # 作者
+  author = "Sheep5"
+
+  # 社交链接
   [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/"
+    name = "rss"
+    url = "/rss.xml"
+
+  # 站点图标
+  [params.assets]
+    favicon = "favicon.png"
+    favicon16x16 = "favicon-16x16.png"
+    favicon32x32 = "favicon-32x32.png"
+    apple_touch_icon = "apple-touch-icon.png"
+
+  # 社交媒体分享图
+  images = ["og-image.jpg"]
 
   # 搜索
   [params.fuseOpts]
@@ -58,6 +79,21 @@ enableEmoji = true
 # 输出格式（搜索功能需要）
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+# RSS 输出为 rss.xml
+[outputFormats]
+  [outputFormats.rss]
+    baseName = "rss"
+
+# Sitemap 配置
+[sitemap]
+  changefreq = "daily"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# RSS 配置
+[services.rss]
+  limit = 5
 
 # 菜单
 [[menu.main]]
@@ -83,3 +119,9 @@ enableEmoji = true
   name = "搜索"
   url = "/search/"
   weight = 4
+
+[[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = 5

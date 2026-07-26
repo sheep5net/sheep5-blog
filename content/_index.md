@@ -1,0 +1,4 @@
+---
+images:
+  - og-image.jpg
+---

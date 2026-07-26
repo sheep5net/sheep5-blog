@@ -1,10 +1,12 @@
 ---
 title: "Hello World"
+slug: "34362"
 date: 2026-07-26
 draft: false
 tags: ["随笔"]
 categories: ["开始"]
 summary: "博客的第一篇文章，一切从 Hello World 开始。"
+images: ["og-image.jpg"]
 ---
 
 ## 你好，世界
