@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.googleapis.com/schemas/sitemap-images/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  {{ range .Data.Pages }}
+  {{- $priority := 0.3 -}}
+  {{- if .IsHome -}}
+    {{- $priority = 1.0 -}}
+  {{- else if and (eq .Kind "page") (eq .Section "posts") -}}
+    {{- $priority = 0.8 -}}
+  {{- end -}}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    {{ if not .Lastmod.IsZero }}<lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}
+    {{ with .Sitemap.ChangeFreq }}<changefreq>{{ . }}</changefreq>{{ end }}
+    <priority>{{ $priority }}</priority>
+  </url>
+  {{ end }}
+</urlset>
