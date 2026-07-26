@@ -56,6 +56,9 @@ mainSections = ["posts"]
   # 作者
   author = "Sheep5"
 
+  # Open Graph 语言（修正 zh_cn -> zh_CN）
+  locale = "zh_CN"
+
   # 社交链接
   [[params.socialIcons]]
     name = "rss"
