@@ -1,7 +1,6 @@
 ---
 title: "研究了Racknerd和Cloudcone"
 date: 2026-07-26T19:12:57+08:00
-description: "今天晚上忽然开始研究VPS了。以前我在Racknerd买过虚拟主机，价格很便宜，配置给的很大方。"
 slug: "97362"
 images: ["og-image.jpg"]
 tags: []
