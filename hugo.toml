@@ -30,6 +30,7 @@ mainSections = ["posts"]
   env = "production"
   defaultTheme = "auto"
   ShowReadingTime = true
+  titleSeparator = "-"
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
