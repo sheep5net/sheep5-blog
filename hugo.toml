@@ -1,6 +1,6 @@
 baseURL = "https://sheep5.net/"
 defaultContentLanguage = "zh-cn"
-title = "Sheep5的博客"
+title = "Sheep5's Blog"
 theme = "PaperMod"
 paginate = 10
 
