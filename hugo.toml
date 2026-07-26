@@ -39,6 +39,7 @@ mainSections = ["posts"]
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowWordCount = true
+  ShowFullTextinRSS = true
   ShowToc = true
   TocOpen = false
   disableThemeToggle = false
