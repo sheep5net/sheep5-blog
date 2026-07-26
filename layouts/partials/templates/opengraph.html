@@ -4,7 +4,9 @@
   <meta property="og:site_name" content="{{ . }}">
 {{- end }}
 
-{{- with or .Title site.Title site.Params.title | plainify }}
+{{- $ogTitle := .Title -}}
+{{- if .IsHome }}{{ $ogTitle = printf "%s - 生活随笔与人间见闻" site.Title }}{{ end -}}
+{{- with or $ogTitle site.Title site.Params.title | plainify }}
   <meta property="og:title" content="{{ . }}">
 {{- end }}
 
