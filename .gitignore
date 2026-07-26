@@ -1,0 +1,20 @@
+# Hugo 构建产物
+public/
+resources/_gen/
+
+# Hugo 缓存
+.hugo_build.lock
+
+# OS 文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Cloudflare
+.wrangler/

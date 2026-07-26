@@ -1,0 +1,85 @@
+baseURL = "https://example.com/"
+defaultContentLanguage = "zh-cn"
+title = "我的博客"
+theme = "PaperMod"
+paginate = 10
+
+enableRobotsTXT = true
+enableEmoji = true
+
+# Hugo 构建配置
+[markup]
+  [markup.highlight]
+    style = "github"
+    lineNos = false
+    codeFences = true
+    guessSyntax = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# PaperMod 核心配置
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowToc = true
+  TocOpen = false
+  disableThemeToggle = false
+  disableSpecial1stPost = true
+  hideMeta = false
+  hideSummary = false
+
+  # 首页简介
+  [params.homeInfoParams]
+    Title = "你好 👋"
+    Content = "欢迎来到我的博客"
+
+  # 社交链接（按需修改）
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/"
+
+  # 搜索
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+# 输出格式（搜索功能需要）
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# 菜单
+[[menu.main]]
+  identifier = "home"
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "archives"
+  name = "归档"
+  url = "/archives/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "tags"
+  name = "标签"
+  url = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "search"
+  name = "搜索"
+  url = "/search/"
+  weight = 4
