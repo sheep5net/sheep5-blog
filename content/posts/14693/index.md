@@ -11,7 +11,7 @@ images = ['og-image.jpg']
 
   
 
-想了半天，还是决定使用域名邮箱。我注册一个全新的.email 后缀域名dahaishiguang.com   
+想了半天，还是决定使用域名邮箱。我注册一个全新的.email 后缀域名sheep5.net   
 
 这个域名不用于访问，只用于邮箱。
 
@@ -49,6 +49,6 @@ cloudflare 域名邮箱：
 
   
 
-我的新邮箱：me@dahaishiguang.com
+我的新邮箱：me@sheep5.net
 
 欢迎给我发邮件。
