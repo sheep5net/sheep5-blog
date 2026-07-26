@@ -1,11 +1,14 @@
 +++
+
 title = '新买的kindle colorsoft到了'
 slug = '41671'
 date = 2026-07-13T07:55:22+08:00
 draft = false
 summary = '之前本来是买了一台kindle2024 青春版。下单以后又后悔了。'
 images = ['og-image.jpg']
+description = "之前本来是买了一台kindle2024 青春版。下单以后又后悔了。看了一下kwp6和colorsoft价格差不多，所以就入手了后者。从宁波保税仓发货，京东发的隔日达。收到货以后进行了一些配置，虽然kindle已经退出中国大陆市场"
 +++
+
 
 之前本来是买了一台kindle2024 青春版。下单以后又后悔了。
 

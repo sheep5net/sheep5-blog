@@ -1,11 +1,14 @@
 +++
+
 title = 'MacBook neo使用小记'
 slug = '77464'
 date = 2026-06-26T08:14:55+08:00
 draft = false
 summary = '使用手上这台MacBook neo刚好一个月了。说说使用体验。'
 images = ['og-image.jpg']
+description = "使用手上这台MacBook neo刚好一个月了。说说使用体验。买之前看了影视飓风的视频种草，加上我又国补和教育优惠，最终选择入手。因为我是轻度使用电脑，不玩游戏，只是日常打打字，写写文章。"
 +++
+
 
 使用手上这台MacBook neo刚好一个月了。说说使用体验。
 

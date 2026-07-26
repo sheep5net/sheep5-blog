@@ -1,11 +1,14 @@
 ---
+
 title: "研究了Racknerd和Cloudcone"
 date: 2026-07-26T19:12:57+08:00
 slug: "97362"
 images: ["og-image.jpg"]
 tags: []
 categories: []
+description: "今天晚上忽然开始研究VPS了。以前我在Racknerd买过虚拟主机，价格很便宜，配置给的很大方。除了速度不快其他的没什么问题。当然现在因为已经改用hugo了，所以也闲置了。VPS我只用过国内大厂的，国外的没用过。"
 ---
+
 
 今天晚上忽然开始研究VPS了。以前我在Racknerd买过虚拟主机，价格很便宜，配置给的很大方。除了速度不快其他的没什么问题。当然现在因为已经改用hugo了，所以也闲置了。
 

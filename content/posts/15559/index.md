@@ -1,11 +1,14 @@
 +++
+
 title = '博客搭建选WordPress.com还是WordPress.org'
 slug = '15559'
 date = 2026-05-12T14:22:37+08:00
 draft = false
 summary = '当我决定使用wordpress搭建大海拾光时，我最先考虑的就是wordpress版本。也就是wordpress.com和wordpress.org。首先要...'
 images = ['og-image.jpg']
+description = "当我决定使用wordpress搭建大海拾光时，我最先考虑的就是wordpress版本。也就是wordpress.com和wordpress.org。首先要说的是，这两者都很不错，它们各有优缺点，选择适合自己的才是最好的。"
 +++
+
 
 当我决定使用wordpress搭建大海拾光时，我最先考虑的就是wordpress版本。也就是wordpress.com和wordpress.org。首先要说的是，这两者都很不错，它们各有优缺点，选择适合自己的才是最好的。下面来说说它们的区别。
 

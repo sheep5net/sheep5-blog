@@ -1,11 +1,14 @@
 +++
+
 title = '将博客迁移至Racknerd虚拟主机'
 slug = '33408'
 date = 2026-06-20T15:33:12+08:00
 draft = false
 summary = '经过慎重的考虑，我最终选择了将博客托管在Racknerd的虚拟主机，并使用Cloudflare进行保护。'
 images = ['og-image.jpg']
+description = "经过慎重的考虑，我最终选择了将博客托管在Racknerd的虚拟主机，并使用Cloudflare进行保护。我注册了全新且便于记忆的词组域名sheep5.net。对比常规全拼域名，它辨识度更高，风格独特。"
 +++
+
 
 经过慎重的考虑，我最终选择了将博客托管在Racknerd的虚拟主机，并使用Cloudflare进行保护。
 

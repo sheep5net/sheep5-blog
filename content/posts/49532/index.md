@@ -1,11 +1,14 @@
 +++
+
 title = '需不需要将Apple ID更改为港区？'
 slug = '49532'
 date = 2026-07-19T08:44:35+08:00
 draft = false
 summary = '最近突发奇想，想把自己的国区Apple ID更改为港区。我是这样想的：'
 images = ['og-image.jpg']
+description = "最近突发奇想，想把自己的国区Apple ID更改为港区。我是这样想的： 港区ID能下载的App更多。海外的App几乎全部可以下载，使用起来更方便。体验完整iCloud功能。脱离了云上贵州，可以解锁iCloud自定义域名邮箱功能。"
 +++
+
 
 最近突发奇想，想把自己的国区Apple ID更改为港区。我是这样想的：
 
