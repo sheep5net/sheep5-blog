@@ -1,12 +1,12 @@
+/assets/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
 /*
   Link: </.well-known/api-catalog>; rel="api-catalog", </rss.xml>; rel="alternate"; type="application/rss+xml"; title="RSS"
   Cache-Control: public, max-age=300, must-revalidate
-
-/assets/css/
-  Cache-Control: public, max-age=31536000, immutable
-
-/assets/js/
-  Cache-Control: public, max-age=31536000, immutable
 
 /.well-known/api-catalog
   Content-Type: application/linkset+json
