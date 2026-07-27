@@ -21,7 +21,10 @@ Hi！欢迎来到sheep5.net 这里是我的个人网站。博主本人位于山�
 
 我还有一个微信订阅号，功能不仅是同步博客的文章，主要还是为了赚广告费。（滑稽）希望大家多多关注一下。
 
-![微信公众号](wechat-qrcode.jpg)
+如果你想要用RSS订阅我的博客请使用： 
+https://sheep5.net/rss.xml
+
+![Pasted image 1](Pasted image 1.jpg)
 
 如果你有其他问题想要问我或者和我聊聊天，请发电子邮件至： me@sheep5.net
 
