@@ -5,8 +5,16 @@
   Content-Type: application/linkset+json
 
 /
+  Cache-Control: public, max-age=300, must-revalidate
+
 /posts/
+  Cache-Control: public, max-age=300, must-revalidate
+
 /tags/*
+  Cache-Control: public, max-age=300, must-revalidate
+
 /categories/*
+  Cache-Control: public, max-age=300, must-revalidate
+
 /archives/*
   Cache-Control: public, max-age=300, must-revalidate
