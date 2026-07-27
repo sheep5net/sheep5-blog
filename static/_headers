@@ -3,3 +3,10 @@
 
 /.well-known/api-catalog
   Content-Type: application/linkset+json
+
+/
+/posts/
+/tags/*
+/categories/*
+/archives/*
+  Cache-Control: public, max-age=300, must-revalidate
