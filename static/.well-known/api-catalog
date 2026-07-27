@@ -1,0 +1,15 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://sheep5.net/",
+      "item": [
+        {
+          "href": "https://sheep5.net/rss.xml",
+          "rel": "service-doc",
+          "type": "application/rss+xml",
+          "title": "Sheep5's Blog - RSS Feed"
+        }
+      ]
+    }
+  ]
+}
