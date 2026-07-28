@@ -1,0 +1,19 @@
+/* 修复外部应用内置浏览器（如知乎、微信等）中图片被拉长变形的问题。
+   这些 webview 可能会把图片宽度撑满容器，但不自动保持宽高比。
+   明确声明 height: auto 后，宽度受限时高度会按比例缩放。 */
+
+img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+/* 对正文图片再加强一次，覆盖可能由外部注入的样式 */
+.md-content img,
+.post-content img,
+.post-entry img,
+.entry-cover img,
+main img {
+    max-width: 100%;
+    height: auto !important;
+    object-fit: contain;
+}
