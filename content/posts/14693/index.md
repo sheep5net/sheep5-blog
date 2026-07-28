@@ -52,6 +52,6 @@ cloudflare 域名邮箱：
 
   
 
-我的新邮箱：me@sheep5.net
+我的新邮箱：sheep5@foxmail.com
 
 欢迎给我发邮件。

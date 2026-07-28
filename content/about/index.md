@@ -26,7 +26,7 @@ https://sheep5.net/rss.xml
 
 ![关于我](about-1.jpg)
 
-如果你有其他问题想要问我或者和我聊聊天，请发电子邮件至： me@sheep5.net
+如果你有其他问题想要问我或者和我聊聊天，请发电子邮件至： sheep5@foxmail.com
 
 期待你的来信！
 
