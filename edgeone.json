@@ -2,6 +2,13 @@
   "hugoVersion": "0.164.0",
   "buildCommand": "hugo --gc --minify",
   "outputDirectory": "public",
+  "redirects": [
+    {
+      "source": "$wwwhost",
+      "destination": "$host",
+      "statusCode": 301
+    }
+  ],
   "headers": [
     {
       "source": "/assets/*",
