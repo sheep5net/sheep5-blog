@@ -1,16 +1,21 @@
-<!-- Google tag (gtag.js) - 延迟加载，避免阻塞首屏 -->
+<!-- Google tag (gtag.js) - 延迟到主线程空闲(idle)时再加载，避免影响 TBT / Lighthouse 分数 -->
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-3CSFRBNQ0D');
-  window.addEventListener('load', function() {
+  function loadGtag(){
     var s = document.createElement('script');
     s.async = true;
     s.src = 'https://www.googletagmanager.com/gtag/js?id=G-3CSFRBNQ0D';
     document.head.appendChild(s);
-  });
+  }
+  if (window.requestIdleCallback) {
+    requestIdleCallback(loadGtag, { timeout: 3000 });
+  } else {
+    window.addEventListener('load', function(){ setTimeout(loadGtag, 2000); });
+  }
 </script>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -76,14 +81,8 @@
 {{- /* Add extended css after theme style */ -}}
 {{- $stylesheet := (slice $license_css $core $extended) | resources.Concat "assets/css/stylesheet.css"  }}
 
-{{- if not site.Params.assets.disableFingerprinting }}
-{{- $stylesheet := $stylesheet | fingerprint }}
-<link rel="preload" href="{{ $stylesheet.RelPermalink }}" as="style" crossorigin="anonymous" integrity="{{ $stylesheet.Data.Integrity }}" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ $stylesheet.RelPermalink }}" crossorigin="anonymous" integrity="{{ $stylesheet.Data.Integrity }}"></noscript>
-{{- else }}
-<link rel="preload" href="{{ $stylesheet.RelPermalink }}" as="style" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ $stylesheet.RelPermalink }}" crossorigin="anonymous"></noscript>
-{{- end }}
+{{- /* 内联关键 CSS：消除渲染阻塞请求，并避免异步 CSS 造成的 FOUC / CLS（布局偏移） */}}
+<style>{{ $stylesheet.Content | safeCSS }}</style>
 
 {{- /* Search */}}
 {{- if (eq .Layout `search`) -}}

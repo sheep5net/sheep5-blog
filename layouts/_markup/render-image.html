@@ -1,0 +1,32 @@
+{{/* 图片渲染钩子：对页面资源图片做压缩 / 转 WebP，并补全 width/height 防止 CLS */}}
+{{- $dest := .Destination -}}
+{{- $alt := .Text -}}
+{{- $title := .Title -}}
+{{- $isExternal := or (findRE "^https?://" $dest) (hasPrefix $dest "//") -}}
+{{- $img := "" -}}
+{{- if not $isExternal -}}
+  {{- with or (.PageInner.Resources.GetMatch (printf "**/%s" $dest)) (.PageInner.Resources.Get $dest) }}{{ $img = . }}{{ end -}}
+{{- end -}}
+{{- if $img -}}
+  {{- if and (eq $img.MediaType.MainType "image") (ne $img.MediaType.SubType "svg") -}}
+    {{- $max := 1200 -}}
+    {{- $processed := $img -}}
+    {{- if gt $img.Width $max -}}
+      {{- $processed = $img.Resize (printf "1200x webp q80" ) -}}
+    {{- else -}}
+      {{- $processed = $img.Resize (printf "%dx webp q80" $img.Width) -}}
+    {{- end -}}
+    {{- $lazy := "lazy" -}}
+    {{- $prio := "" -}}
+    {{- if not (.PageInner.Scratch.Get "firstImg") -}}
+      {{- .PageInner.Scratch.Set "firstImg" true -}}
+      {{- $lazy = "eager" -}}
+      {{- $prio = "high" -}}
+    {{- end -}}
+    <img src="{{ $processed.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }} loading="{{ $lazy }}"{{ with $prio }} fetchpriority="{{ . }}"{{ end }} decoding="async">
+  {{- else -}}
+    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async">
+  {{- end -}}
+{{- else -}}
+  <img src="{{ $dest }}" alt="{{ $alt }}"{{ with $title }} title="{{ . }}"{{ end }}{{ if not $isExternal }} loading="lazy" decoding="async"{{ end }}>
+{{- end -}}
