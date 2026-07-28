@@ -2,7 +2,8 @@ baseURL = "https://sheep5.net/"
 defaultContentLanguage = "zh-cn"
 title = "Sheep5's Blog"
 theme = "PaperMod"
-paginate = 10
+[pagination]
+pagerSize = 10
 
 enableRobotsTXT = true
 enableEmoji = true
