@@ -1,11 +1,16 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3CSFRBNQ0D"></script>
+<!-- Google tag (gtag.js) - 延迟加载，避免阻塞首屏 -->
+<link rel="preconnect" href="https://www.googletagmanager.com">
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-3CSFRBNQ0D');
+  window.addEventListener('load', function() {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-3CSFRBNQ0D';
+    document.head.appendChild(s);
+  });
 </script>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -73,9 +78,11 @@
 
 {{- if not site.Params.assets.disableFingerprinting }}
 {{- $stylesheet := $stylesheet | fingerprint }}
-<link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" integrity="{{ $stylesheet.Data.Integrity }}" rel="preload stylesheet" as="style">
+<link rel="preload" href="{{ $stylesheet.RelPermalink }}" as="style" crossorigin="anonymous" integrity="{{ $stylesheet.Data.Integrity }}" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ $stylesheet.RelPermalink }}" crossorigin="anonymous" integrity="{{ $stylesheet.Data.Integrity }}"></noscript>
 {{- else }}
-<link crossorigin="anonymous" href="{{ $stylesheet.RelPermalink }}" rel="preload stylesheet" as="style">
+<link rel="preload" href="{{ $stylesheet.RelPermalink }}" as="style" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ $stylesheet.RelPermalink }}" crossorigin="anonymous"></noscript>
 {{- end }}
 
 {{- /* Search */}}
