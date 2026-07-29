@@ -31,4 +31,4 @@ https://sheep5.net/rss.xml
 期待你的来信！
 
 我的知乎账号，也欢迎关注！
-![我的知乎账号](zhihu.jpg)
+![我的知乎账号](zhihu.png)
