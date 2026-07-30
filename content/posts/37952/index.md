@@ -2,7 +2,7 @@
 title: "我用 AI 搭建了自己的数字助理"
 date: 2026-07-24T09:36:43+08:00
 description: "记录我用闲置服务器搭建 Hermes（小龙虾）AI 助手的过程，以及每天自动推送新闻、天气、博客访问量的邮件提醒效果。"
-slug: "91873"
+slug: "37952"
 tags: ['AI', '折腾']
 categories: ['折腾']
 draft: false
