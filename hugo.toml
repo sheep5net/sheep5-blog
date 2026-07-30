@@ -102,7 +102,7 @@ mainSections = ["posts"]
 
 # RSS 配置
 [services.rss]
-  limit = 60
+  limit = 10
 
 # 菜单
 [[menu.main]]
