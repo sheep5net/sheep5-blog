@@ -1,19 +1,16 @@
 +++
-
-
-
 title = '喜欢记录生活的人都是怎样的人？'
 date = 2026-08-05T20:24:59+08:00
 slug = '45472'
 tags = []
 categories = ['随笔']
 draft = false
-images = ['og-image.jpg']
+images = ['cover.jpg']
 url = "/archives/197/"
 +++
 
 
-
+![喜欢记录生活](cover.jpg)
 
 这是我在知乎AI上问的一个问题。我自认为我是一个热爱生活的人，也是一个生活的记录者。
 
