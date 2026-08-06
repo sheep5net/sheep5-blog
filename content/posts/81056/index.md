@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '港区Apple ID使用体验'
 date = 2026-08-03T08:29:48+08:00
 slug = '81056'
@@ -6,7 +9,11 @@ tags = []
 categories = ['折腾']
 draft = false
 images = ['og-image.jpg']
+url = "/archives/129/"
 +++
+
+
+
 
 将Apple ID迁移至港区也已经有一段时间了，说说体验。
 

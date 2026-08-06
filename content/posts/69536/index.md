@@ -1,5 +1,8 @@
 +++
 
+
+
+
 title = '试用Titan提供的域名邮箱'
 slug = '69536'
 date = 2026-06-18T13:50:43+08:00
@@ -7,7 +10,11 @@ draft = false
 summary = '今天开启了wordpress.com中的域名邮箱，也就是Titan邮箱。'
 images = ['og-image.jpg']
 description = "今天开启了wordpress.com中的域名邮箱，也就是Titan邮箱。本来是打算找一个靠谱的域名邮箱，对比了国内的阿里云，QQ邮箱，国外的cloudflare，zoho等一系列域名邮箱。"
+url = "/archives/77/"
 +++
+
+
+
 
 
 今天开启了wordpress.com中的域名邮箱，也就是Titan邮箱。

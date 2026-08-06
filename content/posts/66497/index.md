@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '关于Jetpack插件的想法'
 date = 2026-08-02T08:41:26+08:00
 slug = '66497'
@@ -6,7 +9,11 @@ tags = ['WordPress', '插件', '博客']
 categories = ['折腾']
 draft = false
 images = ['og-image.jpg']
+url = "/archives/74/"
 +++
+
+
+
 
 从昨天开始这个博客就改为动态博客了，使用的是wordpress。用的是一家虚拟主机商来托管服务。
 

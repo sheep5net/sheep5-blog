@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '将Apple ID切换到了港区'
 date = 2026-07-31T07:56:16+08:00
 slug = '67060'
@@ -6,7 +9,11 @@ tags = ['Apple', '折腾']
 categories = ['折腾']
 draft = false
 images = ['og-image.jpg']
+url = "/archives/76/"
 +++
+
+
+
 
 昨天晚上干了一件大事，就是把Apple ID切换到了港区。
 

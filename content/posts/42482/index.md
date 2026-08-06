@@ -6,6 +6,7 @@ slug: "42482"
 tags: ['随笔', '折腾']
 categories: ['折腾']
 draft: false
+url: "/archives/41/"
 ---
 
 兜兜转转还是换回了 Cloudflare 的域名邮箱。原来用的是 QQ 会员邮箱，但是那个一年要 200 多，实在是没必要，正好换了域名所以干脆直接 CF 全家桶了。

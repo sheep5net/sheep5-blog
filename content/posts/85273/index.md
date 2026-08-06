@@ -6,6 +6,7 @@ slug: "85273"
 tags: ['随笔', '博客']
 categories: ['随笔']
 draft: false
+url: "/archives/87/"
 ---
 
 好奇那些已经写了 10 多年文章的老博主，他们这么多年累计写了多少文章。

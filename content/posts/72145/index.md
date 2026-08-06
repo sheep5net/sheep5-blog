@@ -1,4 +1,7 @@
 +++
+
+
+
 title = 'Hermes的N种用法'
 date = 2026-08-03T08:44:33+08:00
 slug = '72145'
@@ -6,7 +9,11 @@ tags = []
 categories = ['折腾']
 draft = false
 images = ['og-image.jpg']
+url = "/archives/130/"
 +++
+
+
+
 
 **我在服务器上养了个 AI，它比我准时**
 

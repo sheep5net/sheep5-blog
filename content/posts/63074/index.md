@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '分享青岛的街景'
 slug = '63074'
 date = 2026-07-28T14:28:51+08:00
@@ -6,7 +9,11 @@ draft = false
 tags = ['随想']
 categories = ['生活']
 summary = '分享一组青岛的街景照片。'
+url = "/archives/73/"
 +++
+
+
+
 
 ![街景](IMG_20250617_125342.jpg)
 

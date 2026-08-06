@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '我自认为我是一个感性的人'
 date = 2026-08-04T09:01:33+08:00
 slug = '19717'
@@ -6,7 +9,11 @@ tags = []
 categories = ['随笔']
 draft = false
 images = ['p1.jpg', 'p2.jpg']
+url = "/archives/174/"
 +++
+
+
+
 
 昨天晚上在翻以前写的文章，感触很深。
 

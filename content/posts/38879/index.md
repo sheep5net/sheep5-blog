@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '今天研究了agent相关知识'
 slug = '38879'
 date = 2026-07-29T10:20:42+08:00
@@ -6,7 +9,11 @@ draft = false
 tags = ['随想', 'AI']
 categories = ['生活']
 summary = '最近研究 agent 智能体相关的概念，用元宝把一堆专业名词从头顺了一遍，Hermes 很好用但得买 token plan。'
+url = "/archives/33/"
 +++
+
+
+
 
 之前在研究Hermes怎么用，说实话，有些专业名字我不太清楚什么意思，毕竟也没学过。这导致了一些问题，比如token光速用完，越聊越笨，越聊越慢。
 

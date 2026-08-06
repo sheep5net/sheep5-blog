@@ -1,5 +1,8 @@
 +++
 
+
+
+
 title = 'Kindle Colorsoft 半个月体验'
 slug = '96317'
 date = 2026-07-26T13:31:27+08:00
@@ -7,7 +10,11 @@ draft = false
 summary = '在很久以前，我就入手过电纸书产品。从kindle558到后来找不到了入手了二手499，然后到今年过年期间买了文石poke6。'
 images = ['og-image.jpg']
 description = "为什么买 Colorsoft 在很久以前，我就入手过电纸书产品。从kindle558到后来找不到了入手了二手499，然后到今年过年期间买了文石poke6。但是文石poke6运行的是安卓系统"
+url = "/archives/108/"
 +++
+
+
+
 
 
 ## 为什么买 Colorsoft

@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '腿逐渐好转'
 date = 2026-08-02T10:26:21+08:00
 slug = '18042'
@@ -6,7 +9,11 @@ tags = ['随笔', '恢复', '日常']
 categories = ['生活']
 draft = false
 images = ['og-image.jpg']
+url = "/archives/13/"
 +++
+
+
+
 
 今天是8月2日，距离我腿受伤已经过去一个多月了。
 

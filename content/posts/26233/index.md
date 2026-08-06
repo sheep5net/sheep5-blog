@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '有点自恋：我让AI每天主动夸赞我'
 date = 2026-08-05T20:16:58+08:00
 slug = '26233'
@@ -6,7 +9,11 @@ tags = []
 categories = ['随笔']
 draft = false
 images = ['og-image.jpg']
+url = "/archives/193/"
 +++
+
+
+
 
 原谅我的自恋，毕竟我给Hermes设置了一个定时任务就是每天根据我博客的更新来“夸赞”我。（哈哈哈）
 

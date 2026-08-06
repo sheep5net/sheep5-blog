@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '利用 Workbuddy 优化 Cloudflare 边缘加速效果'
 slug = '17380'
 date = 2026-07-27T08:46:59+08:00
@@ -7,7 +10,11 @@ tags = ['建站', '折腾']
 categories = ['折腾']
 summary = '用 Workbuddy 一步步优化 Cloudflare 边缘缓存，解决回源慢的问题，itdog 测速全绿。'
 images = ['og-image.jpg']
+url = "/archives/12/"
 +++
+
+
+
 
 本站的官方合作伙伴为：GitHub和Cloudflare。前者用于存储本站的代码，后者则用于部署网站。
 

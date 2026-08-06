@@ -1,5 +1,8 @@
 +++
 
+
+
+
 title = '使用Obsidian publish发布网站'
 slug = '28508'
 date = 2026-05-12T14:22:37+08:00
@@ -7,7 +10,11 @@ draft = false
 summary = '在之前的博客里说过，我使用过不少博客平台。静态博客上有Hexo动态博客上有WordPress'
 images = ['og-image.jpg']
 description = "在之前的博客里说过，我使用过不少博客平台。静态博客上有Hexo动态博客上有WordPress ，甚至还有blogger这种老古董。总之我使用过以下博客平台： WordPress.org WordPress.com Hexo Blogger"
+url = "/archives/101/"
 +++
+
+
+
 
 
 在之前的博客里说过，我使用过不少博客平台。静态博客上有Hexo动态博客上有WordPress

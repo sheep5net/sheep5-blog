@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '我存了一整条青岛地铁，就等今天用'
 date = 2026-08-01T08:08:38+08:00
 slug = '41802'
@@ -6,7 +9,11 @@ tags = ['青岛', '地铁', '随笔']
 categories = ['随笔']
 draft = false
 images = ['og-image.jpg']
+url = "/archives/37/"
 +++
+
+
+
 
 最近生病在家修养，哪里也去不了。
 

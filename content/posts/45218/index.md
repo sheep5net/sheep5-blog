@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '分享青岛的海景'
 slug = '45218'
 date = 2026-07-28T14:27:25+08:00
@@ -6,7 +9,11 @@ draft = false
 tags = ['随想']
 categories = ['生活']
 summary = '分享一组青岛的海景照片。'
+url = "/archives/56/"
 +++
+
+
+
 
 ![海景](IMG_20250617_130019.jpg)
 

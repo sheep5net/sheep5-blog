@@ -6,6 +6,7 @@ slug: "37952"
 tags: ['AI', '折腾']
 categories: ['折腾']
 draft: false
+url: "/archives/31/"
 ---
 
 昨天我开通了小米的 MIMO token plan。第一次用这个东西所以我只开通了 Lite 版本。在腾讯云和小米之间我选了小米，主要是后者的量更大一点，更耐用。

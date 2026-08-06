@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '使用Syncthing实现Obsidian本地库与服务器自动同步'
 slug = '15687'
 date = 2026-07-30T08:09:01+08:00
@@ -6,7 +9,11 @@ draft = false
 tags = ['建站', '折腾']
 categories = ['折腾']
 summary = '用 Syncthing 把本地 Obsidian 笔记库自动同步到云端服务器，配合 iCloud 和 AI 定时任务，搭建安全免费的私人知识库同步方案。'
+url = "/archives/94/"
 +++
+
+
+
 
 在折腾Hermes时发现了它的一个新用途：搭建属于自己的知识库，把爱马仕变成自己私人笔记助理。
 

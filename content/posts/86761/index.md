@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '为什么我安装了Jetpack插件？'
 date = 2026-08-04T08:42:54+08:00
 slug = '86761'
@@ -6,7 +9,11 @@ tags = []
 categories = ['折腾']
 draft = false
 images = ['p1.jpg']
+url = "/archives/149/"
 +++
+
+
+
 
 之前说过因为WAF的原因所以没有安装Jetpack插件。今天来说说为什么我又重新安装了这个插件。
 

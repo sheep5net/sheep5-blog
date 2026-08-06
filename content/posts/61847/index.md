@@ -6,6 +6,7 @@ slug: "61847"
 tags: ['随笔', '读书']
 categories: ['随笔']
 draft: false
+url: "/archives/63/"
 ---
 
 在家就一直闲着。除了写写博文以外，还看了不少书。我甚至还买了一台 kindle 来看。

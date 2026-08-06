@@ -1,4 +1,7 @@
 +++
+
+
+
 title = '聊聊：我为什么选择Obsidian记录生活'
 date = 2026-08-05T10:12:32+08:00
 slug = '17891'
@@ -6,7 +9,11 @@ tags = []
 categories = ['随笔']
 draft = false
 images = ['p1.jpg']
+url = "/archives/180/"
 +++
+
+
+
 
 ## 一、前言：告别混乱的生活记录，聊聊我的长期记录心得
 
