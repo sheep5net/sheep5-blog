@@ -33,13 +33,13 @@ mainSections = ["posts"]
 [params]
   env = "production"
   defaultTheme = "auto"
-  ShowReadingTime = true
+  ShowReadingTime = false
   titleSeparator = "-"
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  ShowWordCount = true
+  ShowWordCount = false
   ShowFullTextinRSS = true
   ShowToc = true
   TocOpen = false

@@ -4,17 +4,6 @@
     {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default ":date_long" site.Params.DateFormat)))) }}
 {{- end }}
 
-{{- if (.Param "ShowReadingTime") -}}
-    {{- $wpm := 300 -}}
-    {{- $readTime := math.Ceil (div (float .WordCount) (float $wpm)) | int -}}
-    {{- if lt $readTime 1 -}}{{- $readTime = 1 -}}{{- end -}}
-    {{- $scratch.Add "meta" (slice (printf "<span>%d 分钟</span>" $readTime)) }}
-{{- end }}
-
-{{- if (.Param "ShowWordCount") -}}
-    {{- $scratch.Add "meta" (slice (printf "<span>%d 字</span>" .WordCount)) }}
-{{- end }}
-
 {{- if not (.Param "hideAuthor") -}}
     {{- with (partial "author.html" .) }}
         {{- $scratch.Add "meta" (slice (printf "<span>%s</span>" .)) }}
