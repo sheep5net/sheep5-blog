@@ -57,6 +57,12 @@
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}
   {{- end }}
+
+  {{- if eq .Type "posts" }}
+  <section class="post-end-note" style="margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid rgba(128,128,128,.3);opacity:.85;font-size:.95rem;line-height:1.7">
+    <p style="margin:0">本站没有评论板块，想要交流探讨的朋友，欢迎前往 <a href="{{ "/about/" | relURL }}">「关于」页</a>，发送邮箱消息和我交谈。</p>
+  </section>
+  {{- end }}
 </article>
 
 {{- end }}{{/* end main */}}
